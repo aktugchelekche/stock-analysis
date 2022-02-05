@@ -16,7 +16,7 @@ In this project, I have created an analysis by utilizing elements of VBA such as
 In 2017 " DQ " return was the highest with 199% and 35,796,200 total daily volume, however in 2018 return was -62% and 107,873,900 total daily volume. This would help Steve to understand having high volume doesn't necessarily mean high return. 
 
 On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily volume and in 2018 it was 81.9% with 607,473,500 total daily volume. 
-<table border='1' style='border-collapse:collapse'>
+<table border='1' style="border-collapse:collapse ; margin-left:auto;margin-right:auto ">
 <tr>
 <th>
 <table  >
