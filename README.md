@@ -17,7 +17,8 @@ In 2017 " DQ " return was the highest with 199% and 35,796,200 total daily volum
 
 On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily volume and in 2018 it was 81.9% with 607,473,500 total daily volume. 
 
-<table class="inlineTable" >
+<TD>
+<table  >
 <caption>2017</caption>
   <tr>
     <th>Stock</th>
@@ -36,7 +37,7 @@ On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily
   </tr>
 </table>
 
-<table class="inlineTable" >
+<table  >
 <caption>2018</caption>
   <tr>
     <th>Stock</th>
@@ -54,5 +55,6 @@ On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily
     <td>607,473,50 </td>
   </tr>
 </table>
+</TD>
 
 ## Results 
