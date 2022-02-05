@@ -57,4 +57,42 @@ On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily
 </table>
 </td>
 
+<html>
+<head>
+<style>
+body {<!--from w ww.j a v  a 2s . c o m-->
+  width: 90%;
+  margin: 0 auto;
+}
+
+table:first-child {
+  background-color: blue;
+  color: white;
+  margin-right: 1%;
+}
+
+table:nth-child(2n) {
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 49%;
+  float: left;
+}
+</style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>Hello</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>World</td>
+    </tr>
+  </table>
+</body>
+</html>
 ## Results 
