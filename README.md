@@ -13,11 +13,11 @@ In this project, I have created an analysis by utilizing elements of VBA such as
 
 ### Stock Performance by Year 
 
-In 2017 " DQ " return was the highest with 199% and 35,796,200 total daily volume, however in 2018 return was -62% and 107,873,900 total daily volume. This would help Steve to understand having high volume doesn't necessary bring high return. 
+In 2017 " DQ " return was the highest with 199% and 35,796,200 total daily volume, however in 2018 return was -62% and 107,873,900 total daily volume. This would help Steve to understand having high volume doesn't necessarily mean high return. 
 
 On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily volume and in 2018 it was 81.9% with 607,473,500 total daily volume. 
 
-<table>
+<table class="inlineTable" >
 <caption>2017</caption>
   <tr>
     <th>Stock</th>
@@ -33,6 +33,25 @@ On the other hand, in 2017 "ENPH" return was 129.5% with 221,772,100 total daily
     <td>ENPH</td>
     <td>129.5%</td>
     <td>221,772,100 </td>
+  </tr>
+</table>
+
+<table class="inlineTable" >
+<caption>2018</caption>
+  <tr>
+    <th>Stock</th>
+    <th>Total Daily Volume</th>
+    <th>Return</th>
+  </tr>
+  <tr>
+    <td>DQ</td>
+    <td>-62%</td>
+    <td>107,873,900 </td>
+  </tr>
+  <tr>
+    <td>ENPH</td>
+    <td>89.1%</td>
+    <td>607,473,50 </td>
   </tr>
 </table>
 
