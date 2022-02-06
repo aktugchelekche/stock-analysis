@@ -26,3 +26,67 @@ Thus, we can conclude that investing on "ENPH" for his family would be a better 
 <img width="343" alt="2018_Performance" src="https://user-images.githubusercontent.com/98676400/152662730-d71cbd19-a70a-4213-bffd-59a27b151c0c.png">
   <p align="center">Image 2- All Stocks Performance Compared by Years </p>
 </p>
+
+### Performance Comparison between Initial and Refactored Macro
+
+In order to speed up the initial macro, I needed to find a better way than using nested for loop so that I created a variable called "tickerIndex" which will be able to access correct index across the four different arrays as following :
+
+* tickers 
+* tickerVolumes
+* tickerStartingPrices
+* tickerEndingPrices
+
+By using "tickerIndex" variable the array would run :
+
+* tickers(tickerIndex)= ("AY", ... ,"VSLR")
+* tickerVolumes(tickerIndex)=("totalVolumes_AY", ... , "totalVolume_VSLR")
+
+Refactoring Code as follow :
+
+Dim tickerIndex As Single
+    tickerIndex = 0
+
+    '5b) Create three output arrays
+    
+    Dim tickerVolumes(12) As Long
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
+    
+    '6a) Initialize ticker volumes to zero
+        
+    For i = 0 To 11
+    tickerVolumes(i) = 0
+    
+    Next i
+    '6b) loop over all the rows
+    
+    For i = 2 To RowCount
+    
+        '7a) Increase volume for current ticker
+       
+        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+        
+        '7b) Check if the current row is the first row with the selected tickerIndex.
+        If Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+            tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+            
+            
+        End If
+        
+        '7c) check if the current row is the last row with the selected ticker
+        If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+            tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+            
+
+            '7d Increase the tickerIndex.
+            tickerIndex = tickerIndex + 1
+            
+        End If
+    
+    Next i
+
+After Executing Initial and Refactoring codes, run time shows significan decerease  : 
+
+
+
+
