@@ -1,4 +1,4 @@
-#Stock_Analysis with VBA
+# Stock_Analysis with VBA
 
 ## Overview of Project:
 
@@ -85,7 +85,10 @@ Dim tickerIndex As Single
     
     Next i
 
-After Executing Initial and Refactoring codes, run time shows significan decerease  : 
+After Executing Initial and Refactoring codes, run-time shows significant decerease : 
+
+<p align="center"> <img width="590" alt="Screen Shot 2022-02-05 at 9 23 44 PM" src="https://user-images.githubusercontent.com/98676400/152666611-fd34e9c6-6038-4a17-9735-2a6e05669693.png"></p>
+
 
 
 
