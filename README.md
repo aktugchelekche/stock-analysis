@@ -85,11 +85,13 @@ Dim tickerIndex As Single
     
     Next i
 
-###  Initial and Refactoring codes, run-time shows significant decerease : 
+####  Initial Code Run-Timw for 2017 and 2018
 
-<p align="center"> <img width="590" alt="Screen Shot 2022-02-05 at 9 23 44 PM" src="https://user-images.githubusercontent.com/98676400/152666611-fd34e9c6-6038-4a17-9735-2a6e05669693.png"></p>
+<p align="center"><img width="300"  src="https://user-images.githubusercontent.com/98676400/152704832-2f71dc35-8b5e-41b1-88db-ff6bfc056b02.png"></p>
+<p align="center"><img width="500" src= "https://user-images.githubusercontent.com/98676400/152704965-9917a496-10a1-4b81-bfaf-e27d74494449.png" >
+</p>                                                                                                                                                                                                                                                                      
+    
+                                                                                                                           
 
-
-
-
+                                                                                                                      
 
