@@ -87,9 +87,18 @@ Dim tickerIndex As Single
 
 ####  Initial Code Run-Timw for 2017 and 2018
 
-<p align="center"><img width="300"  src="https://user-images.githubusercontent.com/98676400/152704832-2f71dc35-8b5e-41b1-88db-ff6bfc056b02.png"></p>
-<p align="center"><img width="500" src= "https://user-images.githubusercontent.com/98676400/152704965-9917a496-10a1-4b81-bfaf-e27d74494449.png" >
-</p>                                                                                                                                                                                                                                                                      
+<p align ="center">
+<img width="300"  src="https://user-images.githubusercontent.com/98676400/152704832-2f71dc35-8b5e-41b1-88db-ff6bfc056b02.png">
+
+<img width="300"  src="https://user-images.githubusercontent.com/98676400/152705236-3a29f86a-3b5b-43e3-91e3-87cb5cae5300.PNG">
+                                                                                                                             
+
+</p>                                                                                                                         
+
+
+<img width="500"  src="https://user-images.githubusercontent.com/98676400/152705178-4a9ff081-3e56-44e3-8369-eae054473a16.png">
+                                                                                                           
+                                                                                                                                                        
     
                                                                                                                            
 
