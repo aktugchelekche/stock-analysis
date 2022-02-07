@@ -117,5 +117,10 @@ As it was mentioned on advantages, we are seeking for reducing amount of time, h
 
 ###### Advantages and Disadvantages original and refactored VBA script 
 
-I am going to refactor my two statements above and connect to this part. The advantages of using YearValue code then refactoring it was saved me fair amount time. There are too many lines that take while to type such as the "tickers" array. On the other hand, I spent quite time to understand and find out the logic behind of the "tickerIndex". I didn't remove my nested for loop at the beginning of refactoring and I could not figure out why my code was not working. After consulting with classmates I understood that the whole idea of utilizing that variable is to remove nested loop and use arrays in lieu of it. 
+I am going to refactor my two statements above and connect to this part. The advantages of using YearValue code then refactoring it saved a fair amount of time. There are too many lines that take a while to code such as the "tickers" array, I didnt have to create another subrotine for formatting as well. The most important advantage of refactoring the code was to see how much time we can save from runtime by altering few lines and create a variable. Looking forward, I will always be seeking to find ways to make my codes faster in future. That was a great take  for me from this part.  
+
+On the other hand, I spent quite time to understand and find out the logic behind of the "tickerIndex". I didn't remove my nested for loop at the beginning of refactoring and I could not figure out why my code was not working. After consulting with classmates I understood that the whole idea of utilizing that variable is to remove nested loop and use arrays in lieu of it. 
 Spending that much time to understand the reasoning of refactoring code would worth it if this code will be used for long term but if this is a code for a short term plan, I would reconsider using initial one rather than refactored . 
+
+
+Aktug Cilekci 
