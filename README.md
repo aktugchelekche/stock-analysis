@@ -10,7 +10,7 @@ In order to establish a quick and user friendly tool that he might want to use i
 In this project, I have created an analysis by utilizing elements of VBA such as Arrays, Loops, Conditionals and assigning variables with correct data types. After executing the macro, I have seen that it takes around 0.7-0.8 seconds which seem quite long time for a small data set. Therefore, I decided to dive into refactoring to code and see if it can get any faster. 
 
 
-### Stock Performance by Year 
+#### Stock Performance by Year 
 
 In 2017 " DQ " return was the highest with 199% and 35,796,200 total daily volume, however in 2018 return was -62% and 107,873,900 total daily volume. This would help Steve to understand having high volume doesn't necessarily mean high return. 
 
@@ -26,7 +26,7 @@ Thus, we can conclude that investing on "ENPH" for his family would be a better 
   <p align="center">Image 2- All Stocks Performance Compared by Years </p>
 </p>
 
-### Performance Comparison between Initial and Refactored Macro
+#### Performance Comparison between Initial and Refactored Macro
 
 In order to speed up the initial macro, I needed to find a better way than using nested for loop so that I created a variable called "tickerIndex" which will be able to access correct index across the four different arrays as following :
 
