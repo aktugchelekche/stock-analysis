@@ -102,7 +102,7 @@ Dim tickerIndex As Single
   <img width="300"  src="https://user-images.githubusercontent.com/98676400/152719246-64321706-513d-4c54-a469-1b34a1eaffe0.png">
                                                                                                                                                 </p>   
                                                                                                                            
-Upon completlation of execution, there is a significant decrease on runtime between the initial and refactored code. 
+Upon completion of execution, there is a significant decrease on runtime between the initial and refactored code. 
 
 ## Results
 
@@ -111,11 +111,11 @@ Upon completlation of execution, there is a significant decrease on runtime betw
 ###### Advantages
 Nowadays, artificial intelligence and machine learning are two imperative fields that leading the entire world in any industry. Industries are always looking for the most efficient and quick application to implement on their system. We can create a algorithm with a code that working properly but speed and efficiency can be improved always. While we want to make improvement, need to reduce the amount of time as well. Refactoring an initial code and make improvement would help us to achieve both of our goals which are time and efficiency . 
 
-###### Disdvantages     
+###### Disadvantages     
 
-As it was mentioned on advantages, we are seeking for redecing amount of time, however, we might face with a code that understading and refactoring it might take much longer time than creating a fresh new code. Therefore before making decision, we have to look for cons and pros than do the math if refoctraing is the path we want to take .
+As it was mentioned on advantages, we are seeking for reducing amount of time, however, we might face with a code that understating and refactoring it might take much longer time than creating a fresh new code. Therefore before making decision, we have to look for cons and pros than do the math if refactoring is the path we want to take .
 
-###### Advantages and Disdvantages original and refactored VBA script 
+###### Advantages and Disadvantages original and refactored VBA script 
 
-I am going to refactor my two statements above and connect to this part. The advantages of usiung YearValue code then refactoring it was saved me fair amounth time. There are too many lines that take while to type such as the "tickers" array. On the other hand, I spent quite time to understand and find out the logic behind of the "tickerIndex". I didnt remove my nested for loop at the beginnng of refactoring and I could not figure out why my code was not working. After consulting with " google " and classmate I understood that the whole idea of utilizing that variable is to remove nested loop and use arrays in lieu of it. 
+I am going to refactor my two statements above and connect to this part. The advantages of using YearValue code then refactoring it was saved me fair amount time. There are too many lines that take while to type such as the "tickers" array. On the other hand, I spent quite time to understand and find out the logic behind of the "tickerIndex". I didn't remove my nested for loop at the beginning of refactoring and I could not figure out why my code was not working. After consulting with classmates I understood that the whole idea of utilizing that variable is to remove nested loop and use arrays in lieu of it. 
 Spending that much time to understand the reasoning of refactoring code would worth it if this code will be used for long term but if this is a code for a short term plan, I would reconsider using initial one rather than refactored . 
