@@ -9,7 +9,6 @@ In order to establish a quick and user friendly tool that he might want to use i
 
 In this project, I have created an analysis by utilizing elements of VBA such as Arrays, Loops, Conditionals and assigning variables with correct data types. After executing the macro, I have seen that it takes around 0.7-0.8 seconds which seem quite long time for a small data set. Therefore, I decided to dive into refactoring to code and see if it can get any faster. 
 
-## Results 
 
 ### Stock Performance by Year 
 
@@ -85,7 +84,7 @@ Dim tickerIndex As Single
     
     Next i
 
-####  Initial Code Run-Timw for 2017 and 2018
+####  Run-Time Of  Initial Code For 2017 and 2018
 
 <p align ="center">
 <img width="300"  src="https://user-images.githubusercontent.com/98676400/152704832-2f71dc35-8b5e-41b1-88db-ff6bfc056b02.png">
@@ -95,12 +94,28 @@ Dim tickerIndex As Single
 
 </p>                                                                                                                         
 
+####  Run-Time Of ReFactored Code For 2017 and 2018
 
-<img width="500"  src="https://user-images.githubusercontent.com/98676400/152705178-4a9ff081-3e56-44e3-8369-eae054473a16.png">
+<p align ="center">
+  <img width="300"  src="https://user-images.githubusercontent.com/98676400/152705178-4a9ff081-3e56-44e3-8369-eae054473a16.png">
                                                                                                            
-                                                                                                                                                        
-    
+  <img width="300"  src="https://user-images.githubusercontent.com/98676400/152719246-64321706-513d-4c54-a469-1b34a1eaffe0.png">
+                                                                                                                                                </p>   
                                                                                                                            
+Upon completlation of execution, there is a significant decrease on runtime between the initial and refactored code. 
 
-                                                                                                                      
+## Results
 
+### Advantages and Disadvantages of Refactoring code 
+
+###### Advantages
+Nowadays, artificial intelligence and machine learning are two imperative fields that leading the entire world in any industry. Industries are always looking for the most efficient and quick application to implement on their system. We can create a algorithm with a code that working properly but speed and efficiency can be improved always. While we want to make improvement, need to reduce the amount of time as well. Refactoring an initial code and make improvement would help us to achieve both of our goals which are time and efficiency . 
+
+###### Disdvantages     
+
+As it was mentioned on advantages, we are seeking for redecing amount of time, however, we might face with a code that understading and refactoring it might take much longer time than creating a fresh new code. Therefore before making decision, we have to look for cons and pros than do the math if refoctraing is the path we want to take .
+
+###### Advantages and Disdvantages original and refactored VBA script 
+
+I am going to refactor my two statements above and connect to this part. The advantages of usiung YearValue code then refactoring it was saved me fair amounth time. There are too many lines that take while to type such as the "tickers" array. On the other hand, I spent quite time to understand and find out the logic behind of the "tickerIndex". I didnt remove my nested for loop at the beginnng of refactoring and I could not figure out why my code was not working. After consulting with " google " and classmate I understood that the whole idea of utilizing that variable is to remove nested loop and use arrays in lieu of it. 
+Spending that much time to understand the reasoning of refactoring code would worth it if this code will be used for long term but if this is a code for a short term plan, I would reconsider using initial one rather than refactored . 
